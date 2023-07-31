@@ -1,0 +1,30 @@
+{
+    "name": "polarising/bcrypt",
+    "description": "Customized Bcrypt for PHP",
+    "keywords": ["Bcrypt"],
+    "type": "library",
+    "require": {
+        "php": ">=5.3.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0|~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yang Deng",
+            "email": "d2894861@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+     "autoload": {
+        "psr-4": {
+            "Bcrypt\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bcrypt\\Test\\": "tests/"
+        }
+    }
+}

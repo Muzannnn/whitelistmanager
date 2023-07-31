@@ -1,0 +1,17 @@
+{
+    "name": "muzan/whitelistmanager",
+    "description": "A web app for manage users is whitelisted to your minecraft server",
+    "autoload": {
+        "psr-4": {
+            "Muzan\\Whitelistmanager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muzan"
+        }
+    ],
+    "require": {
+        "polarising/bcrypt": "^1.0"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "packages": [
+        {
+            "name": "polarising/bcrypt",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Polarising/bcrypt.git",
+                "reference": "247e1ac20f8ef86592f48172c9a3d352be4806fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Polarising/bcrypt/zipball/247e1ac20f8ef86592f48172c9a3d352be4806fa",
+                "reference": "247e1ac20f8ef86592f48172c9a3d352be4806fa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0|~5.0"
+            },
+            "time": "2016-11-22T05:16:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Bcrypt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yang Deng",
+                    "email": "d2894861@gmail.com"
+                }
+            ],
+            "description": "Customized Bcrypt for PHP",
+            "keywords": [
+                "bcrypt"
+            ],
+            "support": {
+                "issues": "https://github.com/Polarising/bcrypt/issues",
+                "source": "https://github.com/Polarising/bcrypt/tree/master"
+            },
+            "install-path": "../polarising/bcrypt"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
